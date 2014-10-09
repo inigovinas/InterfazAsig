@@ -1,0 +1,42 @@
+#mommy{
+    border: 2px solid blue;
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+   /*-webkit-box-direction:reverse; /*Honekin ordena alda daiteke*/
+   /* width: 700px; /*Neurriaren araberakoa jartzeko*/
+   -webkit-box-pack:center; /*Zentratzeko aukera ematen digu*/
+    
+}
+#kid1{
+    border: 2px solid red;
+    background: green;
+    padding: 20px;
+    margin: 10px;
+    /*-webkit-box-ordinal-group: 3; /*Zein ordenetan jarri*/
+    width: 60px;
+}
+#kid2{
+    border: 2px solid red;
+    background: yellow;
+    padding: 20px;
+    margin: 10px;
+   /* -webkit-box-ordinal-group: 1;*/
+    width: 60px;
+  /*  -webkit-box-flex:1; /*HOnekin bat flexible jartzen degu bere espazioan.*/
+}
+#kid3{
+    border: 2px solid red;
+    background: red;
+    padding: 20px;
+    margin: 10px;
+   /* -webkit-box-ordinal-group: 4;*/
+    width: 60px;
+}
+#kid4{
+    border: 2px solid red;
+    background: orange;
+    padding: 20px;
+    margin: 10px;
+   /* -webkit-box-ordinal-group: 2;*/
+    width: 60px;
+}

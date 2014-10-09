@@ -1,0 +1,5 @@
+#lerroa {color: red;}
+p.lerroa {color: blue;}
+p[name] {color: green;}
+p[name^="benat"]{color: yellow;}
+p[name$="benat"]{color: orange;}

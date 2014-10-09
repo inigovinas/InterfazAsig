@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+}
+#box{
+    display: block;
+    width: 500px;
+    margin: 50px auto;
+    padding: 15px;
+    text-align: center;
+    border: 7px solid blue;
+    background: yellow;
+    outline: 7px solid red;
+   /* -webkit-transform:scale(1.5); /*HOnekin haunditu egiten degu*/
+   /* -webkit-transform:scale(1,3); /*alboak*/
+   /* -webkit-transform:scale(-1,1); /*Ispiluana*/
+   /* -webkit-transform:rotate(45deg); /*BIratzeko*/
+   /* -webkit-transform:translate(150px, 300px); /*Lekuz mugitzeko*/
+    -webkit-transform:translate(100px, 100px) rotate(45deg) scale(0.8); 
+}
+#text{
+    font: bold 30px Century Gothic;
+}

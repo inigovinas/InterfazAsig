@@ -1,0 +1,5 @@
+div > p{color: orange;}
+
+body > p{color: blue;} /*Ezin da ipini. Ez da bere aita.*/
+
+/*p.lerroa+ p{color:blue;}*/
