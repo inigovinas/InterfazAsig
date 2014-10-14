@@ -1,5 +1,26 @@
+* {
+                margin:0px;
+                padding:0px;
+}
+
+ header{
+    height: 200px;
+    background-color: red;
+}
+
+#foto_grande{
+    margin: 0 auto;
+    width: 80%;
+    min-width: 150px;
+    
+    height:300px;
+    background-color: blue;
+}
+
 #mommy{
     border: 2px solid blue;
+    width: 100%;
+    padding-top: 20px;
     display: -webkit-box;
     -webkit-box-orient: horizontal;
    /* -webkit-box-direction:reverse; /*Honekin ordena alda daiteke*/
@@ -47,6 +68,16 @@
     height: 100px;
 }
 
+#kid5{
+    border: 2px solid red;
+    background: green;
+    padding: 20px;
+    margin: 10px;
+    -webkit-box-flex:1;
+   /* -webkit-box-ordinal-group: 2;*/
+    height: 100px;
+}
+
 img:hover{ 
     -webkit-transform: scale(1.5);
     -moz-transform: scale(1.5);
@@ -55,16 +86,35 @@ img:hover{
     transform: scale(1.5)
 }
 
-ul, ol {
-    list-style:none;
-    display: inline;
+/************************/
+
+ * {
+    margin:0px;
+    padding:0px;
 }
             
-.menu > li {
+#menu {
+    width:100%;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: black;
+    margin: 0 auto;
+    height: 40px;
+}
+
+ul, ol {
+    list-style:none;
+}
+
+.nav {
+    width:500px; /*Le establecemos un ancho*/
+    margin:0 auto; /*Centramos automaticamente*/
+}
+
+.nav > li {
     float:left;
 }
 
-.menu li a {
+.nav li a {
     background-color:#000;
     color:#fff;
     text-decoration:none;
@@ -72,30 +122,28 @@ ul, ol {
     display:block;
 }
 
-.menu li a:hover {
+.nav li a:hover {
     background-color:#434343;
 }
 
-.menu li ul {
+.nav li ul {
     display:none;
     position:absolute;
     min-width:140px;
 }
 
-.menu li:hover > ul {
+.nav li:hover > ul {
     display:block;
 }
 
-.menu li ul li {
+.nav li ul li {
     position:relative;
 }
 
-.menu li ul li ul {
+.nav li ul li ul {
     right:-140px;
     top:0px;
 }
-
-
 
 
 
