@@ -57,53 +57,54 @@
 #contenedor{
     /*border: 2px solid blue;*/
     width: 100%;
+    min-width: 200px;
     padding-top: 20px;
     display: -webkit-box;
     -webkit-box-orient: horizontal;
    -webkit-box-pack:center; 
-    height: 500px;
+    height: 600px;
     -webkit-box-align:center; 
     -webkit-box-align:stretch; 
 }
 #colum1{
+   /* max-width: 100px;*/
     padding: 20px;
     margin: 10px;
     -webkit-box-flex:1;
+    background-color: #C0C0C0
 }
 #colum2{
-
-    background: #C0C0C0;
     padding: 20px;
     margin: 10px;
     -webkit-box-flex:4;
+    max-width: 300px;
+    background-color: #C0C0C0
 
 }
 #colum3{
-
-    background: #C0C0C0;
     padding: 20px;
     margin: 10px;
     -webkit-box-flex:2;
+    background-color: #C0C0C0
 
 }
 #colum4{
-
-    background: #C0C0C0;
+    background-color: red;
     padding: 20px;
     margin: 10px;
-    -webkit-box-flex:2;
-
+    -webkit-box-flex:0;
 }
 
 #colum5{
     padding: 20px;
     margin: 10px;
     -webkit-box-flex:1;
+    background-color: #C0C0C0
 }
 
 #foto_grande img:hover{ 
     -webkit-transform: scale(1.2);
-    transform: scale(1.2)
+    transform: scale(1.2);
 }
 
 /**********MENU**************/
@@ -202,7 +203,42 @@ footer section{
     -webkit-box-flex:1;
 }
 
+/***********************Formulario***************************/
+#miForm{
+    width: 100%;
+}
+#miForm input[type="text"]{
+    width: 100%;
+    border-radius: 10px;
+    border-style: none;
+    margin: 5px;
+    height: 25px;
+    background-color: #C0C0C0;
+    color:#fff;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 5px;
+}
 
+#miForm input[type="submit"] {
+    width: 100%;
+    height: 30px;
+    margin: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    border-style: none;
+    background-color: #787878 ;
+ 
+    cursor: pointer;
+
+}
+
+#miForm input[type="submit"]:hover {
+    background-color: #484848 ;
+}
 
 
 
