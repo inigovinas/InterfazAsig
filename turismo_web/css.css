@@ -6,10 +6,66 @@
 
 /********************Cabezera************************/
  header{
-    width: 100%;
-    height: 200px;
+    background-color:  #FFFFCC;
+    height: 100%;
 }
 
+#cabe{
+    width: 100%;
+}
+
+/**********MENU**************/          
+#menu {
+    width:100%;
+    font-weight: bold;
+    background-color: #C0C0C0 ;
+    margin: 0 auto;
+    height: 38px;
+}
+
+ul, ol {
+    list-style:none;
+}
+
+.nav {
+    width:750px;
+    margin:0 auto; 
+}
+
+.nav > li {
+    float:left;
+}
+
+.nav li a {
+    background-color:#C0C0C0 ;
+    color:#fff;
+    text-decoration:none;
+    padding:10px 20px;
+    display:block;
+}
+
+.nav li a:hover {
+    background-color:#909090 ;
+}
+
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+
+.nav li:hover > ul {
+    display:block;
+}
+
+.nav li ul li {
+    position:relative;
+}
+
+.nav li ul li ul {
+    right:-140px;
+    top:0px;
+}
 /*******************Fotos Arriba***********************/
 
 #foto_grande{ 
@@ -67,140 +123,79 @@
     -webkit-box-align:stretch; 
 }
 #colum1{
-   /* max-width: 100px;*/
+    max-width: 100px;
+    min-width: 0px;
     padding: 20px;
-    margin: 10px;
+    margin: 20px;
     -webkit-box-flex:1;
-    background-color: #C0C0C0
+    
 }
 #colum2{
+    max-width: 450px;
+    min-width: 100px;
     padding: 20px;
-    margin: 10px;
+    margin: 20px;
     -webkit-box-flex:4;
-    max-width: 300px;
-    background-color: #C0C0C0
+    
 
 }
 #colum3{
+    max-width: 200px;
+    min-width: 110px;
     padding: 20px;
-    margin: 10px;
+    margin: 20px;
     -webkit-box-flex:2;
-    background-color: #C0C0C0
+    
 
 }
 #colum4{
-    background-color: red;
+    
+    max-width: 160px;
+    min-width: 110px;
     padding: 20px;
-    margin: 10px;
-    -webkit-box-flex:0;
+    margin: 20px;
+    -webkit-box-flex:2;
 }
 
 #colum5{
+    max-width: 100px;
+    min-width: 0px;
     padding: 20px;
-    margin: 10px;
+    margin: 20px;
     -webkit-box-flex:1;
-    background-color: #C0C0C0
+    
 }
 
 #foto_grande img:hover{ 
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
 }
+/***********************Estilos Parte Cemtral***************/
 
-/**********MENU**************/
-
- * {
-    margin:0px;
-    padding:0px;
-}
-            
-#menu {
-    width:100%;
-    font-weight: bold;
-    background-color: #C0C0C0 ;
-    margin: 0 auto;
-    height: 38px;
-}
-
-ul, ol {
-    list-style:none;
-}
-
-.nav {
-    width:750px;
-    margin:0 auto; 
-}
-
-.nav > li {
-    float:left;
-}
-
-.nav li a {
-    background-color:#C0C0C0 ;
-    color:#fff;
-    text-decoration:none;
-    padding:10px 20px;
-    display:block;
-}
-
-.nav li a:hover {
-    background-color:#909090 ;
-}
-
-.nav li ul {
-    display:none;
-    position:absolute;
-    min-width:140px;
-}
-
-.nav li:hover > ul {
-    display:block;
-}
-
-.nav li ul li {
-    position:relative;
-}
-
-.nav li ul li ul {
-    right:-140px;
-    top:0px;
-}
-
-/**********************Pie de pagina************************/
-footer{
+.imagen1{
     width: 100%;
-    height: 75px;
-    background-color: #C0C0C0;
+    height: 150px;
 }
 
-footer section{
-    margin: 0 auto;
-    width: 30%;
-    display: -webkit-box;
-    -webkit-box-orient: horizontal;
-
-}
-#red1{
-
-    margin: 10px;
-    -webkit-box-flex:1;
-}
-#red2{
-    margin: 10px;
-    -webkit-box-flex:1;
-}
-#red3{
-    margin: 10px;
-    -webkit-box-flex:1;
-}
-#red4{
-    margin: 10px;
-    -webkit-box-flex:1;
+.imagen2{
+    width: 100%;
+    height: 150px;
 }
 
-#red5{
-    margin: 10px;
-    -webkit-box-flex:1;
+/*Nueva fuente cogida desde internet*/
+@font-face {
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 400;
+      src: local('Open Sans'), local('OpenSans'), url('http://themes.googleusercontent.com/static/fonts/opensans/v5/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff') format('woff');
+}
+
+h3{
+    font-family: 'open sans',arial,sans-serif;
+    color: #FFCC66;
+}
+p{
+    color: #383838;
 }
 
 /***********************Formulario***************************/
@@ -238,6 +233,43 @@ footer section{
 
 #miForm input[type="submit"]:hover {
     background-color: #484848 ;
+}
+
+/**********************Pie de pagina************************/
+footer{
+    width: 100%;
+    height: 75px;
+    background-color: #C0C0C0;
+}
+
+footer section{
+    margin: 0 auto;
+    width: 30%;
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+
+}
+#red1{
+
+    margin: 10px;
+    -webkit-box-flex:1;
+}
+#red2{
+    margin: 10px;
+    -webkit-box-flex:1;
+}
+#red3{
+    margin: 10px;
+    -webkit-box-flex:1;
+}
+#red4{
+    margin: 10px;
+    -webkit-box-flex:1;
+}
+
+#red5{
+    margin: 10px;
+    -webkit-box-flex:1;
 }
 
 
