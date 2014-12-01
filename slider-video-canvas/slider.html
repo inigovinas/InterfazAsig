@@ -1,0 +1,132 @@
+<!doctype html>
+<html  lang="es">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Slider Video</title>
+        <link rel="stylesheet" type="text/css" href="slider.css">
+        
+        <!--para usar jquery desde la nube de google-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
+        <!--para el video-->
+        <script type="text/javascript" src="video/video.js"></script>
+
+
+    </head>
+    <body>
+
+    <!--Slider - Diferencia entre el html del Camping -->
+    <div id="slider"> 
+        <input type="radio" id="control1" name="controls"/>
+        <label for="control1"></label>
+        <input type="radio" id="control2" name="controls"/>
+        <label for="control2"></label>
+        <input type="radio" id="control3" name="controls"  checked="checked"/>
+        <label for="control3"></label>
+        <input type="radio" id="control4" name="controls"/>
+        <label for="control4"></label>
+        <input type="radio" id="control5" name="controls"/>
+        <label for="control5"></label>
+        <div id="sliderinner">
+            <ul>
+                <li>              
+                        <!--video-->
+                        <section id="skin">
+                            <video id="myMovie">
+                                <source src="video/video.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <nav>
+                                <div id="buttons">
+                                    <img src="video/overlay.png" id="playButton"/>
+                                </div>
+                                <div id="defaultBar">
+                                    <div id="progressBar"></div>
+                                </div>
+                            </nav>
+                        </section>
+                        <!--fin video-->
+                    <div class="description">
+                        <div class="description-text">
+                            <h2>VIDEO 1</h2>
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    
+                     <!--video-->
+                        <section id="skin">
+                            <video id="myMovie">
+                                <source src="video/video.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <nav>
+                                <div id="buttons">
+                                    <img src="video/overlay.png" id="playButton"/>
+                                </div>
+                                <div id="defaultBar">
+                                    <div id="progressBar"></div>
+                                </div>
+                            </nav>
+                        </section>
+                        <!--fin video-->
+                    <div class="description">
+                        <div class="description-text">
+                            <h2>VIDEO 2</h2>
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                     <!--video-->
+                        <section id="skin">
+                            <video id="myMovie">
+                                <source src="video/video.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <nav>
+                                <div id="buttons">
+                                    <img src="video/overlay.png" id="playButton"/>
+                                </div>
+                                <div id="defaultBar">
+                                    <div id="progressBar"></div>
+                                </div>
+                            </nav>
+                        </section>
+                        <!--fin video-->
+                    <div class="description">
+                        <div class="description-text">
+                            <h2>VIDEO 1</h2>
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <img src="../img/slider/44.jpg" />
+                    <div class="description">
+     
+                        <div class="description-text">
+                            <h2>Habitaciones compartidas o individuales</h2>
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <img src="../img/slider/55.jpg" />
+                    <div class="description">
+
+                        <div class="description-text">
+                            <h2>El gran salón</h2>
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--slider-->
+        
+    </body>
+
+</html>
