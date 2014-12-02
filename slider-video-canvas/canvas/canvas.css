@@ -1,0 +1,15 @@
+*{
+	font-family: 'Montserrat', sans-serif;
+    color:black;
+}
+
+body{ 
+	margin:0px; 
+	padding:0px; 
+} 
+
+#canvas{ 
+	border-width: 1px;
+	border-style: dotted;
+	border-color: black;
+} 
